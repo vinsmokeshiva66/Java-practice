@@ -3,7 +3,7 @@ public class DatabaseManager {
     private Connection connection;
 
     public DatabaseManager() throws SQLException{
-        connection=DriverManager.getConnection("jdbc:mysql://localhost:3306/bankmanagement","root","password");
+        connection=DriverManager.getConnection("jdbc:mysql://localhost:3306/ECommerceDB","root","password");
 
     }
 
